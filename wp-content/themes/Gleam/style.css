@@ -395,4 +395,92 @@ html#ie7 .menu_slide { display: none !important; }
 #mapa{position: relative;float: left;}
 
 
-/*f25b29*/
+
+/*------------------------*/
+/*------------------------*/
+/*---------CURSOS---------*/
+/*------------------------*/
+/*------------------------*/
+
+
+.content_cursos{width: 710px; height: 150px;position: relative; border: 0px solid red; margin-bottom: 20px;}
+	.text_cursos{width: 540px; height: 150px; border: 0px solid green;position: relative; float: left;}
+	.image_cursos{width: 150px; height: 150px; border: 0px solid yellow; position: relative; float: left;}
+		.java{width: 150px; height: 150px; background: url(images/cursos/java2.png);}
+		.python{width: 150px; height: 150px; background: url(images/cursos/python2.png);}
+		.arduino{width: 150px; height: 150px; background: url(images/cursos/arduino2.png);}
+		.android{width: 150px; height: 150px; background: url(images/cursos/android2.png);}
+
+
+/*--------------------------------*/
+/*--------------------------------*/
+/*---------[MENUS EXTRAS]---------*/
+/*--------------------------------*/
+/*--------------------------------*/
+
+
+
+#lado_div{position: absolute; width: 270px; height: 290px; margin-left: 1090px;}
+   .lado_menu{width: 270px; height: 25px; background-color: #004264; border: 1px solid black; opacity: 0.7; box-shadow: 0px 5px 20px; position: relative; overflow: hidden; border-bottom-left-radius:10px; border-bottom-right-radius:10px; border-top-left-radius:0px; border-top-right-radius:0px;}
+      .lado_lado_r{width: 5px; height: 215px; background-color: #004264; position: relative; float: left;}
+      .lado_imagens{width: 255px; height: 215px; background-color: #004264; margin-left: 5px; margin-top: -215px; position: relative; float: left; border-bottom-left-radius:10px; border-bottom-right-radius:10px; border-top-left-radius:0px; border-top-right-radius:0px;}
+         .lado_imagem{width: 255px;height: 65px; background: white; margin-left: 3px; margin-top: 5px;}
+            .lado_shadow { position: absolute; margin-top: 5px; margin-left: 5px; width: 155px; height: 50px; background: url('images/menu_lateral/shadow.png') !important;}
+         
+            .lado_imagem1{position: absolute; width: 245px;height: 55px; margin-left: 5px; margin-top: 5px; background: url('images/menus/banner1.png') ;}
+            .lado_imagem1:hover{position: absolute; width: 245px;height: 55px; margin-left: 5px; margin-top: 5px; background: url('images/menu_lateral/contratar.png');}
+            
+            .lado_imagem2{position: absolute; width: 245px;height: 55px; margin-left: 5px; margin-top: 5px; background: url('images/menus/banner2.png');}
+            .lado_imagem2:hover{position: absolute; width: 245px;height: 55px; margin-left: 5px; margin-top: 5px; background: url('images/menu_lateral/fundar.png');} 
+
+            .lado_imagem3{position: absolute; width: 245px;height: 55px; margin-left: 5px; margin-top: 5px; background: url('images/menus/banner3.png');}
+            .lado_imagem3:hover{position: absolute; width: 245px;height: 55px; margin-left: 5px; margin-top: 5px; background: url('images/menu_lateral/investir.png');} 
+
+    .ins{position: fixed; background-color: #004264; width:270px; text-align: center;}   
+    	.ins span{font-size: 22px; text-align: center;margin-top: 3px;}     
+    .lado_lado_l{width: 5px; height: 215px; background-color: #004264; position: relative; float: left;}
+   .ladoo{  width: 185px; height:10px; box-shadow: 0px 5px 20px; position: relative; background-color: #004264;border-bottom-left-radius:10px; border-bottom-right-radius:10px; border-top-left-radius:0px; border-top-right-radius:0px;}
+
+
+
+
+
+#midias {}
+
+
+
+#midias {
+  background-color: #004264;
+  position: fixed;
+  left: 0;
+  top: 125px;
+  z-index: 3;
+  font-family:Browallia  UPC;
+  font-size:18px;
+  letter-spacing:0.6px;
+  white-space:nowrap;
+  width: 35px;
+  height: 400px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  /* CSS3 Transition: */
+  -webkit-transition: 0.25s;
+  
+  /* Future proofing (these do not work yet): */
+  -moz-transition: 0.25s;
+  transition: 0.25s;
+}
+						
+
+
+@media all and (max-width: 1024px) {
+  #midias {
+    display:none;
+  }
+}
+
+.nome{position: relative;float: right; height: 400px; width: 25px; border: 0px solid; padding-right: 5px;}
+	.espaco{width: 25px; height: 96px;}
+	.nome span{font-size: 32px; position: relative; display: block; margin-top: 10px; text-align: center;}
+.facebook{position: relative; float: right; }
+.twitter{position: relative;float: right; }

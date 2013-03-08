@@ -38,6 +38,9 @@
 	<!--[if lt IE 9]>
 		<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
 	<![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	
+	<script type="text/javascript" src="<?php bloginfo("stylesheet_directory");?>/js/menus.js"></script>
 
 	<script type="text/javascript">
 		document.documentElement.className = 'js';
@@ -69,6 +72,31 @@ olark.identify('3334-192-10-2097');/*]]>*/</script><noscript><a href="https://ww
 </head>
 <body <?php body_class(); ?>>
 	<div id="wrapper">
+
+	<div id="lado_div">
+   		<div class="lado_menu"> 
+            <div class="lado_imagens">
+                <div class="lado_imagem"><a href="?page_id=24"><div class="lado_imagem1"></div></a></div>
+                <div class="lado_imagem"><a href="?page_id=26"><div class="lado_imagem2"></div></a></div>
+                <div class="lado_imagem"><a href="?page_id=28"><div class="lado_imagem3"></div></a></div>
+            </div>
+            <div class="ins"><span>Inscreva-se<span></div>
+        </div>
+    </div>
+
+    <div id="midias">
+    	<div class="nome">
+    		<div class="espaco"></div>
+    		<span>M</span>
+    		<span>I</span>
+    		<span>D</span>
+    		<span>I</span>
+    		<span>A</span>
+    		<span>S</span>
+    	</div>
+    </div>
+
+
 		<div id="main_content"<?php if ( is_home() ) echo ' class="home_content"'; ?>>
 			<header id="main_header">
 				<div id="logo_area">
