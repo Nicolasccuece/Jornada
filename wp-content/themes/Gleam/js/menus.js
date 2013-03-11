@@ -1,4 +1,4 @@
-$(document).ready(function() {
+/*$(document).ready(function() {
         $(".lado_menu").hover(
            function () {
                 $(".lado_menu").stop().animate({"height":"240px"},500);
@@ -20,3 +20,4 @@ $(document).ready(function() {
         );
 
     });   
+*/

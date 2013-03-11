@@ -73,6 +73,9 @@ olark.identify('3334-192-10-2097');/*]]>*/</script><noscript><a href="https://ww
 <body <?php body_class(); ?>>
 	<div id="wrapper">
 
+
+	<a href="#!/?page_id=125"><div class="botao_inscreva_se"></div></a>
+<!--
 	<div id="lado_div">
    		<div class="lado_menu"> 
             <div class="lado_imagens">
@@ -83,7 +86,12 @@ olark.identify('3334-192-10-2097');/*]]>*/</script><noscript><a href="https://ww
             <div class="ins"><span>Inscreva-se<span></div>
         </div>
     </div>
+-->
 
+
+
+
+<!--
     <div id="midias">
     	<div class="nome">
     		<div class="espaco"></div>
@@ -95,7 +103,7 @@ olark.identify('3334-192-10-2097');/*]]>*/</script><noscript><a href="https://ww
     		<span>S</span>
     	</div>
     </div>
-
+-->
 
 		<div id="main_content"<?php if ( is_home() ) echo ' class="home_content"'; ?>>
 			<header id="main_header">
