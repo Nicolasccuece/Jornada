@@ -406,10 +406,10 @@ html#ie7 .menu_slide { display: none !important; }
 .content_cursos{width: 710px; height: 150px;position: relative; border: 0px solid red; margin-bottom: 20px;}
 	.text_cursos{width: 540px; height: 150px; border: 0px solid green;position: relative; float: left;}
 	.image_cursos{width: 150px; height: 150px; border: 0px solid yellow; position: relative; float: left;}
-		.java{width: 150px; height: 150px; background: url(images/cursos/java2.png);}
-		.python{width: 150px; height: 150px; background: url(images/cursos/python2.png);}
-		.arduino{width: 150px; height: 150px; background: url(images/cursos/arduino2.png);}
-		.android{width: 150px; height: 150px; background: url(images/cursos/android2.png);}
+		.java{width: 150px; height: 150px; background: url(images/cursos/java2.png); margin-top:-30px;}
+		.python{width: 150px; height: 150px; background: url(images/cursos/python2.png); margin-top:-10px;}
+		.arduino{width: 150px; height: 150px; background: url(images/cursos/arduino2.png); margin-top:-20px;}
+		.android{width: 150px; height: 150px; background: url(images/cursos/android2.png);margin-top:-35px;}
 
 
 /*--------------------------------*/
@@ -494,7 +494,14 @@ html#ie7 .menu_slide { display: none !important; }
 
 
 
-.ins_box{height: 310px; width: 215px; margin-right: 13px; position: relative; float: left; background-color: white; box-shadow: 4px 4px 10px black;}
+.ins_box{height: 310px; width: 215px; margin-right: 13px; position: relative; float: left; background-color: black; box-shadow: 4px 4px 10px black;}
 	.ins_image_c{border:0px solid; height:140px; margin:10px 0 0 15px; width:180px; background: url('images/inscreva_se/cursos.png');}
 	.ins_image_p{border:0px solid; height:140px; margin:10px 0 0 15px; width:180px; background: url('images/inscreva_se/palestras.png');}
 	.ins_image_s{border:0px solid; height:140px; margin:10px 0 0 15px; width:180px; background: url('images/inscreva_se/startup.png');}
+	.ins_top{position: relative; width: 215px; height: 30px;}
+		.ins_top span{font-size: 26px; color: white; position: absolute; text-shadow:2px 2px 10px; margin:10px 0 0 65px;}
+	.ins_env{width:155px; height:38px; margin-left:28px; margin-top: 20px;}
+	
+  
+  
+		
