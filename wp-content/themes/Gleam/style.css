@@ -405,6 +405,7 @@ html#ie7 .menu_slide { display: none !important; }
 
 .content_cursos{width: 710px; height: 150px;position: relative; border: 0px solid red; margin-bottom: 20px;}
 	.text_cursos{width: 540px; height: 150px; border: 0px solid green;position: relative; float: left;}
+		.leia{width: 95px; height: 31px; background:url(images/botaoLeiaMais.png); position: absolute;}
 	.image_cursos{width: 150px; height: 150px; border: 0px solid yellow; position: relative; float: left;}
 		.java{width: 150px; height: 150px; background: url(images/cursos/java2.png); margin-top:-30px;}
 		.python{width: 150px; height: 150px; background: url(images/cursos/python2.png); margin-top:-10px;}
@@ -442,10 +443,31 @@ html#ie7 .menu_slide { display: none !important; }
    .ladoo{  width: 185px; height:10px; box-shadow: 0px 5px 20px; position: relative; background-color: #004264;border-bottom-left-radius:10px; border-bottom-right-radius:10px; border-top-left-radius:0px; border-top-right-radius:0px;}
 
 
+border:1px solid;
 
+ Safari 
+-webkit-transform: rotate(-45deg);
+
+ Opera 
+-o-transform: rotate(-45deg);
+ 
+ Firefox 
+-moz-transform: rotate(-45deg);
+ 
+ Internet Explorer 
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);*/
+
+
+.botao_inscreva_se{background: url("images/botao-inscreva-se.png"); margin-top:0px; position:absolute; margin-left: 1118px;width: 221px; height: 52px;  position: fixed; /*-webkit-transform: rotate(45deg); -o-transform: rotate(45deg); -moz-transform: rotate(45deg); filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=45);*/}
+/*
+.botao_inscreva_see{background: url("images/botao-inscreva-see.png"); margin-top:1px; position:absolute; margin-left: 1185px;width: 180px; height: 185px; position: fixed;}
 */
+@media all and (max-width: 1024px) {
+  .botao_inscreva_se{
+    display:none;
+  }
+}
 
-.botao_inscreva_se{background: url("images/botao-inscreva-se.png"); margin-top:1px; position:absolute; margin-left: 1090px;width: 200px; height: 46px;}
 
 #midias {
   background-color: #004264;
